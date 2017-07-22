@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="您当前的设置："
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@drawable/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="灯光模式： "
+            android:textColor="@drawable/whitesmoke"
+            android:textColorHint="@drawable/white" />
+
+        <AutoCompleteTextView
+            android:id="@+id/show_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:editable="true"
+            android:ems="10"
+            android:text="AutoCompleteTextView"
+            android:textColorHint="@drawable/white" >
+
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="音乐模式： "
+            android:textColor="@drawable/whitesmoke" />
+
+        <AutoCompleteTextView
+            android:id="@+id/show_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:editable="true"
+            android:ems="10"
+            android:text="AutoCompleteTextView"
+            android:textColorHint="@drawable/white" >
+
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View02"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_column="0"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_row="0"
+            android:text="权限设置： "
+            android:textColor="@drawable/whitesmoke" />
+
+        <AutoCompleteTextView
+            android:id="@+id/show_autho"
+            android:layout_column="0"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_row="0"
+            android:ems="10"
+            android:textColor="@drawable/whitesmoke"
+            android:textColorHint="@drawable/white" >
+
+        </AutoCompleteTextView>
+
+        <AutoCompleteTextView
+            android:id="@+id/autho_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:ems="10"
+            android:textColor="@drawable/whitesmoke"
+            android:textColorHint="@drawable/white" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autho_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:ems="10"
+            android:textColor="@drawable/whitesmoke" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/s_setup"
+        style="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/whitesmoke"
+        android:text="进入设置" />
+
+</LinearLayout>

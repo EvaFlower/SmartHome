@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/person"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:id="@+id/oradioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/桔梗色"
+        android:scrollbars="vertical" >
+        
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center" >
+
+                <RadioButton
+                    android:id="@+id/pedradiobtn2"
+                    style="@style/selection_item_style"
+                    android:background="@drawable/light1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_default" />
+
+                <view
+                    android:id="@+id/view1"
+                    android:layout_width="3dp"
+                    android:layout_height="wrap_content"
+                    class="AbsoluteLayout" />
+
+                <RadioButton
+                    android:id="@+id/pe1radiobtn2"
+                    style="@style/selection_item_style"
+                    android:background="@drawable/light1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_lightmode1" />
+
+            </TableRow>
+
+            <view
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                class="AbsoluteLayout" />
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:scrollbars="vertical" >
+
+                <RadioButton
+                    android:id="@+id/pe2radiobtn2"
+                    style="@style/selection_item_style"
+                    android:background="@drawable/light1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_lightmode2" />
+
+                <view
+                    android:id="@+id/view3"
+                    android:layout_width="3dp"
+                    android:layout_height="wrap_content"
+                    class="AbsoluteLayout" />
+
+                <RadioButton
+                    android:id="@+id/pe3radiobtn2"
+                    style="@style/selection_item_style"
+                    android:background="@drawable/light1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_lightmode3" />
+
+            </TableRow>
+
+            <view
+                android:id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                class="AbsoluteLayout" />
+
+            <TableRow
+                android:id="@+id/TableRow01"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:scrollbars="vertical" >
+
+                <RadioButton
+                    android:id="@+id/pecradiobtn2"
+                    style="@style/selection_item_style"              
+                    android:background="@drawable/light1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_composition" />
+
+                <view
+                    android:id="@+id/view5"
+                    android:layout_width="3dp"
+                    android:layout_height="wrap_content"
+                    class="AbsoluteLayout" />
+
+                <RadioButton
+                   
+                    style="@style/selection_item_style"                   
+                    android:gravity="bottom|center"
+                    />
+            </TableRow>
+
+        </RadioGroup>
+
+ </TableLayout>

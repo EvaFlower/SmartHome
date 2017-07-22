@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+  <drawable name="darkgray">#808080</drawable>
+  <drawable name="white">#FFFFFF</drawable>
+  <drawable name="blue">#0000FF</drawable>
+  <drawable name="lightred">#90FF0000</drawable>
+  <drawable name="gray">#90505050</drawable>
+  <drawable name="lightgray">#cccccc</drawable>
+  <drawable name="whitesmoke">#f5f5f5</drawable>
+  <drawable name="floralwhite">#fffaf0</drawable>
+  <drawable name="linen">#faf0e6</drawable>
+  <drawable name="papyawhip">#ffefd5</drawable>
+  <drawable name="bisque">#ffe4c4</drawable>
+  <drawable name="金茶">#f39800</drawable>
+  <drawable name="柑子色">#f6ad49</drawable>
+  <drawable name="橙色">#ee7800</drawable>
+  <drawable name="朱色">#eb6101</drawable>
+  <drawable name="藤色">#bbbcde</drawable>
+  <drawable name="红碧">#8491c3</drawable>
+  <drawable name="桔梗色">#5654a2</drawable>
+  <drawable name="藤纳户">#706caa</drawable>
+  <drawable name="空色">#a0d8ef</drawable>
+  <drawable name="勿忘草色">#89c3eb</drawable>
+  <drawable name="天色">#2ca9e1</drawable>
+  <drawable name="青">#0095d9</drawable>
+  <drawable name="mediumblue">#0000cd</drawable>
+  <drawable name="khaki">#f0e68c</drawable>
+  <drawable name="mediumpurple">#9370db</drawable>
+  <drawable name="dark">#000000</drawable>
+</resources>

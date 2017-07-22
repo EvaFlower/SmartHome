@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/authority2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/AradioGroup"
+        style="android:radioButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp" >
+
+        <RadioButton
+            android:id="@+id/auunacceptrbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_notaccept" />
+
+        <RadioButton
+            android:id="@+id/auacceptrbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_accept" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/AcheckBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AradioGroup"
+        android:layout_toRightOf="@+id/AtextView1"
+        android:text="@string/str_lightmode1"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:id="@+id/AcheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/AcheckBox1"
+        android:layout_below="@+id/AtextView1"
+        android:text="@string/str_lightmode2"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:id="@+id/AcheckBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/AcheckBox2"
+        android:layout_below="@+id/AcheckBox2"
+        android:text="@string/str_lightmode3"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/AtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/AeditText1"
+        android:layout_alignBottom="@+id/AeditText1"
+        android:layout_alignLeft="@+id/AradioGroup"
+        android:layout_marginLeft="37dp"
+        android:text="@string/str_time"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/AtextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/AcheckBox1"
+        android:layout_alignBottom="@+id/AcheckBox1"
+        android:layout_alignLeft="@+id/AtextView2"
+        android:text="@string/str_accmode"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/AeditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AcheckBox3"
+        android:layout_toRightOf="@+id/AtextView2"
+        android:layout_weight="1"
+        android:ems="3"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/setbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AeditText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/AtextView2"
+        android:text="确定" />
+
+</RelativeLayout>

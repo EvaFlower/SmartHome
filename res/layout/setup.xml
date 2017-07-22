@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/modeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/light"
+            style="@style/tab_item_style"
+            android:background="@drawable/tab_background"
+            android:text="@string/str_light" />
+
+        <RadioButton
+            android:id="@+id/music"
+            style="@style/tab_item_style"
+            android:background="@drawable/tab_background"
+            android:text="@string/str_music" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" >
+        
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/setupGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:gravity="center"
+        android:orientation="horizontal"
+>
+
+        <RadioButton
+            android:id="@+id/personalset"
+            style="@style/tab_item_style"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_background"
+            android:text="@string/setup1" />
+
+        <RadioButton
+            android:id="@+id/otherset"
+            style="@style/tab_item_style"
+            android:background="@drawable/tab_background"
+            android:text="@string/setup2" />
+
+        <RadioButton
+            android:id="@+id/authoset"
+            style="@style/tab_item_style"
+            android:background="@drawable/tab_background"
+            android:text="@string/setup3" />
+    </RadioGroup>
+
+</LinearLayout>

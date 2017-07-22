@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical" >
+  
+    <EditText
+        android:id="@+id/loginName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:ems="10"
+        android:hint="@string/str_name"
+        android:inputType="textPersonName" >
+    </EditText>
+
+    <view
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        class="AbsoluteLayout" />
+
+    <EditText
+        android:id="@+id/loginPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:ems="10"
+        android:hint="@string/str_password"
+        android:inputType="textPassword" />
+
+    <view
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        class="AbsoluteLayout" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/str_login" />
+
+    <view
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        class="AbsoluteLayout" />
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/registerbtn"
+        android:layout_alignStart="@+id/linearLayout2"
+        android:layout_marginBottom="26dp"
+        android:text="----------还没注册？在下面注册！----------" />
+
+     <Button
+         android:id="@+id/registerbtn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:text="@string/str_register" />
+
+</LinearLayout>
